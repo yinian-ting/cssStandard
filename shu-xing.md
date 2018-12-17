@@ -20,7 +20,7 @@
 > transform / animation / transition / ...
 
 ##2. 属性简写
-以下属性，如果只需定义其中的一两个属性，而不是全部，尽量分开来写。
+* 以下属性，如果只需定义其中的一两个属性，而不是全部，尽量分开来写。
 * padding
 * margin
 * font
