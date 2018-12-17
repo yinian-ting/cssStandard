@@ -1,3 +1,11 @@
-##1. 什么BEM？
-* 是（Block, Element, Modifier）的简称，即（块，元素，修饰符）
+##1. 什么是BEM？
+* 即（block）、元素（element）、修饰符（modifier） 
+
+##2. 命名约定模式
+```html
+.block{}
+.block__element{}
+.block--modifier{}
+```
+
 
