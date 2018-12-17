@@ -19,6 +19,32 @@
 5. **其他**，包括：动画，过渡等
 > transform / animation / transition / ...
 
+##2. 属性简写
+以下属性，如果只需定义其中的一两个属性，而不是全部，尽量分开来写。
+* padding
+* margin
+* font
+* background
+* border
+* border-radius
+```css
+/* 不推荐 */
+.selector {
+    margin: 0 0 10px;
+    background: red;
+    background: url(image.jpg);
+    border-radius: 3px 3px 0 0;
+}
+/* 推荐 */
+.selector {
+    margin-bottom: 10px;
+    background-color: red;
+    background-image: url(image.jpg);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+```
+
 
 
 
