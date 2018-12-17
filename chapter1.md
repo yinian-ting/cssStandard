@@ -1,5 +1,6 @@
 ##1. 什么是BEM？
 * 即（block）、元素（element）、修饰符（modifier） 
+* 具体请参考 https://segmentfault.com/a/1190000000391762
 * 优点：
         1.增加代码可读性，通过浏览HTML代码中的class属性，就能够明白模块之间是如何关联的
         2. 增加代码复用，减少代码量
