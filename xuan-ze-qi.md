@@ -4,13 +4,11 @@
 * 如无必要，不得为id、class选择器添加 类型选择器 进行限定
 ```css
 /* 不推荐 */
-p#error,
-p.danger-message {
+p#message {
     font-color: #c00;
 }
 /* 推荐 */
-#error,
-.danger-message {
+#message {
     font-color: #c00;
 }
 ```
